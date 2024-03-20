@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Mas Dels Avets</title>
+
+    <link rel="stylesheet" href="css/style_corregido_v1.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav id="inicio" role="navigation">
+        <ul class="container">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#habitaciones">Habitaciones</a></li>
+            <li><a href="#restaurante">Restaurante</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="container">
+        <a tabindex="2" id="skip-link" href="#habitaciones">Volver al contenido</a>
+        <h1 tabindex="1">Hotel Mas dels Avets</h1>
+        <img src="img/hotel.jpg" alt="El hotel Mas Dels Avets se encuentra enclavado entre montañas y bloques."
+            tabindex="0">
+    </header>
+    <main>
+
+        <section class="container">
+            <img src="img/dormitori.avif" alt="Dormitorio extremadamente confortable, y perfectamente equipado"
+                tabindex="0">
+            <div id="habitaciones">
+                <h2 tabindex="0">Nuestras habitaciones</h2>
+                <p tabindex="0">Nuestras habitaciones disponen de:</p>
+                <ul>
+                    <li>Baño privado.</li>
+                    <li>TV conectada a satélite.</li>
+                    <li>Aire Acondicionado.</li>
+                    <li>Caja de seguridad.</li>
+                </ul>
+                <p class="volver-inicio"><a href="#inicio">Volver al inicio</a></p>
+            </div>
+
+            <img src="img/menjador.avif" alt="Nuestro restaurante, espacioso y de alto nivel" tabindex="0">
+            <div id="restaurante">
+                <h2 tabindex="0">El Restaurante</h2>
+                <p tabindex="0">Ofrecemos menús diarios con productos de temporada.</p>
+                <p tabindex="0">Le recomendamos consulte nuestra excelente carta de vinos.</p>
+                <p tabindex="0">Elaboramos postres artesanos diariamente.</p>
+
+                <p class="volver-inicio"><a href="#inicio">Volver al inicio</a></p>
+
+            </div>
+        </section>
+
+
+        <section class="section-form" id="contacto">
+            <h2 tabindex="0">Contacte con nosotros</h2>
+
+            <form>
+                <fieldset>
+                    <legend tabindex="0">Datos personales</legend>
+                    <label>Nombre:<input type="text" required aria-required="true"></label>
+                    <label>Apellido:<input type="text" required aria-required="true"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend tabindex="0">Datos de la reserva:</legend>
+                    <label>Fecha entrada:<input type="date" required aria-required="true"></label>
+                    <label>Fecha salida:<input type="date" required aria-required="true"></label>
+                </fieldset>
+                <div>
+                    <button class="boton" type="submit">Enviar</button>
+                </div>
+                <p class="volver-inicio"><a href="#inicio">Volver al inicio</a></p>
+
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <section id="nosotros">
+                <h2>SOBRE NOSOTROS</h2>
+                <ul>
+                    <li><a href="#">¿Quiénes somos?</a></li>
+                    <li><a href="#">Blog Hoteles Rurales</a></li>
+                    <li><a href="#">Condiciones legales</a></li>
+                    <li><a href="#">Política de cookies</a></li>
+                </ul>
+            </section>
+            <section id="app">
+                <h2>DESCARGA LA APP</h2>
+                <ul>
+                    <li><a href="#" aria-label="Enlace a Google Play"><img src="img/google-play2.png"
+                                alt="logo de google play"></a></li>
+                    <li><a href="#" aria-label="Enlace a la Apple Store"><img src="img/apple-store2.png"
+                                alt="logo de apple store"></a></li>
+                </ul>
+            </section>
+            <section id="siguenos">
+                <h2>SÍGUENOS</h2>
+                <ul>
+                    <li><a href="https://facebook.com" aria-label="Enlace a Facebook"><img src="img/png-transparent-facebook.png"
+                                alt="logo de facebook"></a></li>
+                    <li><a href="https://twitter.com" aria-label="Enlace a Twitter"><img src="img/png-transparent-twitter.png"
+                                alt="logo de twitter"></a></li>
+                    <li><a href="https://instagram.com" aria-label="Enlace a instagram"><img src="img/png-transparent-instagram.png"
+                                alt="logo de instagram"></a></li>
+                </ul>
+            </section>
+        </div>
+
+    </footer>
+</body>
+
+</html>
